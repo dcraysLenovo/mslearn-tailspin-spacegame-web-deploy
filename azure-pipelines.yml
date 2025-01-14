@@ -2,9 +2,10 @@ trigger:
 - '*'
 
 pool:
+  name: MyPool
   vmImage: 'ubuntu-20.04'
   demands:
-  - npm
+  - np
 
 variables:
   buildConfiguration: 'Release'
